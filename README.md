@@ -1,6 +1,6 @@
 # 🔐 FFF - Form Field Finder
 
-**FFF** is a powerful, CLI-based tool that automatically detects login form structures and extracts field names and action URLs from HTML — perfect for use with fuzzing and brute-force tools like [`ffuf`](https://github.com/ffuf/ffuf) and [`wfuzz`](https://github.com/xmendez/wfuzz).
+**FFF** is a CLI-based tool that automatically detects login form structures and extracts field names and action URLs from HTML — perfect for use with fuzzing and brute-force tools like [`ffuf`](https://github.com/ffuf/ffuf) and [`wfuzz`](https://github.com/xmendez/wfuzz).
 
 FFF intelligently detects both traditional `<form>` tags and modern login layouts where fields may be split across `<div>`, `<section>`, or sibling containers. It supports cookies, headers, and verbose form dumps.
 
