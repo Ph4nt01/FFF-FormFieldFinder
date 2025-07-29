@@ -8,14 +8,14 @@ FFF intelligently detects both traditional `<form>` tags and modern login layout
 
 ## 🚀 Features
 
-- ✅ Auto-detects `<form>` elements with login fields
-- ✅ Handles non-standard layouts (fallbacks for `<div>`, `<section>`, etc.)
-- ✅ Extracts `action` URL (with full `urljoin` resolution)
-- ✅ Prints fuzz-ready login payload as Python `dict`
-- ✅ Accepts custom cookies and headers
-- ✅ Verbose mode to inspect all login containers
-- ✅ Installable via `pip` or `pipx`
-- ✅ Compatible with ffuf, wfuzz, Burp Suite automation
+- Auto-detects `<form>` elements with login fields
+- Handles non-standard layouts (fallbacks for `<div>`, `<section>`, etc.)
+- Extracts `action` URL (with full `urljoin` resolution)
+- Prints fuzz-ready login payload as Python `dict`
+- Accepts custom cookies and headers
+- Verbose mode to inspect all login containers
+- Installable via `pip` or `pipx`
+- Compatible with ffuf, wfuzz, Burp Suite automation
 
 ---
 
@@ -28,9 +28,8 @@ pipx install fff-formfieldfinder
 ```
 
 ```bash
-pipx ensurepath             # to add fff to PATH
-
-exec $SHELL                 # to reset shell for using the fff command
+# to add to PATH and reset shell for using the fff command
+pipx ensurepath && exec $SHELL   
 ```
 
 ### ➤ Using pip

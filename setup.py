@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="fff-formfieldfinder",
-    version="1.0.0",
+    version="1.0.1",
     description="Form Field Finder: Extracts login fields and form action for fuzzing",
     author="[Ph4nt01]",
     author_email="sorush986@gmail.com",
