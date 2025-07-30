@@ -101,7 +101,7 @@ Detected Login form structure: <form>
 ## 📂 Project Structure
 
 ```
-fff/
+FFF-FormFieldFinder/
 ├── fff/
 │   ├── __init__.py
 │   └── cli.py
