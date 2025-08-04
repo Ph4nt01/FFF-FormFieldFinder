@@ -27,11 +27,6 @@ FFF intelligently detects both traditional `<form>` tags and modern login layout
 pipx install fff-formfieldfinder
 ```
 
-```bash
-# to add to PATH and reset shell for using the fff command
-pipx ensurepath && exec $SHELL   
-```
-
 ### ➤ Using pip
 
 ```bash
