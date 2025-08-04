@@ -80,7 +80,7 @@ Detected Login form structure: <form>
 
 ---
 
-## ⚙️ Command-Line Options
+## ⚙️ CLI Options
 
 |Option|Description|
 |---|---|
